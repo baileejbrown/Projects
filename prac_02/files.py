@@ -4,7 +4,7 @@ print(name, file=name_file)
 name_file.close()
 
 name_file = open("name.txt", 'r')
-print('Your name is {}'.format(name_file.read()))
+print('Your name is {}'.format(name_file.read().strip()))
 name_file.close()
 
 numbers_file = open('numbers.txt', 'w')
