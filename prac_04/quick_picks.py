@@ -20,4 +20,4 @@ for i in range(0, number_of_quickpicks):
     for i in range(0, NUMBERS_PER_QUICKPICK - 1):
         print('{:3}'.format(quickpick[i]), end='')
 
-    print("\n")
+    print()
